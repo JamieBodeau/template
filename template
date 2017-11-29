@@ -1,8 +1,6 @@
 #!/bin/bash
 # This is a short script that will copy a file template 
-# for the user to the desired location. These files are 
-# all contained in "Here Documents" 
-# within this script.
+# for the user to the desired location. 
 #
 # Created by Jamie Bodeau on 11/29/2017
 
