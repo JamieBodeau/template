@@ -160,7 +160,7 @@ case "$1" in
         copy_template "${c}" "$2"
         ;;
     
-    *.cpp)
+    *.c)
         echo Copying C template.
         copy_template "${c}" "$1"
         ;;
