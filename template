@@ -52,7 +52,7 @@ EOF
 cpp=$(cat<<EOF
 // $username
 
-// Headers ------------------------------------------------
+// Headers -----------------------------------------------
 
 #include <iostream>
 #include <stdio.h>
@@ -60,16 +60,16 @@ cpp=$(cat<<EOF
 #include <unistd.h>
 using namespace std;
 
-// Prototypes ---------------------------------------------
+// Prototypes --------------------------------------------
 
 
 
-// Main Execution -----------------------------------------
+// Main Execution ----------------------------------------
 
 int main(int argc, char** argv){
 
     // Exit main
-    return EXIT_SUCCESS
+    return EXIT_SUCCESS;
 }
 
 // Functions ---------------------------------------------
@@ -79,23 +79,22 @@ EOF
 c=$(cat<<EOF
 // $username
 
-// Headers ------------------------------------------------
+// Headers -----------------------------------------------
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
-using namespace std;
 
-// Prototypes ---------------------------------------------
-
+// Prototypes --------------------------------------------
 
 
-// Main Execution -----------------------------------------
+
+// Main Execution ----------------------------------------
 
 int main(int argc, char** argv){
 
     // Exit main
-    return EXIT_SUCCESS
+    return EXIT_SUCCESS;
 }
 
 // Functions ---------------------------------------------
